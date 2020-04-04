@@ -4,7 +4,7 @@ package main
 import (
 	"encoding/json" // Utilisé pour le traitement des réponses en JSON des APIS de citations
 	"fmt"
-	"github.com/dghubble/go-twitter/twitter" // Pakcet pour l'API Twitter
+	"github.com/dghubble/go-twitter/twitter" // Packet pour l'API Twitter
 	"github.com/dghubble/oauth1" // Packet pour une implémentation Golang de OAuth1 (nécessaire pour se connecter à l'API Twitter)
 	"log"
 	"math/rand"
