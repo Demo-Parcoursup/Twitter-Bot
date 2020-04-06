@@ -31,7 +31,7 @@ type QuoteOne struct {
 	Quote	string	`json:"quote"`
 }
 
-// Structure qui définie le JSON à récupérer de la seconde API de définition
+// Structure qui définie le JSON à récupérer de la seconde API de citations
 type QuoteTwo struct {
 	Author	string	`json:"author"`
 	Quote	string	`json:"en"`
@@ -135,7 +135,7 @@ func main() {
 			log.Printf("%+v\n", response)
 			log.Printf("%+v\n", tweet)
 		}
-		// Met le script en pause le cycle pendant 24 heures
+		// Met le cycle en pause pendant 24 heures
 		time.Sleep(24 * time.Hour)
 
 	}
